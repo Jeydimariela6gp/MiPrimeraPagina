@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fundamentosjs</title>
+</head>
+<body>
+    <script>
+        let Nombre = "Mariela"
+        let Edad= 20;
+        document.write(" Hola " + Nombre + " , Tienes " + Edad + " Años.");
+
+       
+        let hora= 20; //pruebas co  diferentes horas, ej, 9, 14, 18
+        if (hora < 12){
+                console.log("buenos dias") ;
+
+            } else if (hora < 18){
+                console.log("buenas tardes");
+
+            } else {
+                console.log("buenas noches");
+            }
+
+            for (let i = 0; i < 25 ; i++){
+                console.log("Iteracion "+ i);
+        }
+
+        let contador = 0;
+        while (contador < 10){
+            console.log("contando de 1 a 9: " + contador);
+            contador ++;
+        }
+
+        //Declaración de funcion
+        function saludar(nombre){
+            return "hola, " + nombre + "!";
+        }
+
+        console.log(saludar("Mariela"));//llama a la función 
+
+        console.log(saludar("Carmen"));
+        </script>
+</body>
+</html>
